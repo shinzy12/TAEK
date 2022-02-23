@@ -995,9 +995,9 @@ class BaseCheck():
         self.https_proxy = "https://www.proxynova.com/proxy-server-list/country-pk/"
         self.https_proxy = "https://www.proxynova.com/proxy-server-list/country-pk/"
         self.proxyDict = {
-                      "https" : self.https_proxy, Proxy IP =103.174.4.115 " 8080"
-                      "https" : self.https_proxy, Proxy IP =103.174.4.115 " 8080"
-                      "https" : self.https_proxy, Proxy IP =103.174.4.115 " 8080"
+                      "https" : self.https_proxy, 
+                      "https" : self.https_proxy,
+                      "https" : self.https_proxy,
                     }
         self.url = url
         def makearr(tsteps):
