@@ -991,13 +991,13 @@ import requests
 import time
 class BaseCheck():
     def __init__(self, url):
-        self.http_proxy  = "https://free-proxy-list.net/"
-        self.https_proxy = "https://free-proxy-list.net/"
-        self.ftp_proxy   = "https://free-proxy-list.net/"
+        self.http_proxy  = "http://www.find-ip.net"
+        self.https_proxy = "http://www.find-ip.net"
+        self.ftp_proxy   = "http://www.find-ip.net"
         self.proxyDict = {
-                      "http"  : self.http_proxy,
-                      "https" : self.https_proxy,
-                      "ftp"   : self.ftp_proxy
+                      "http"  : self.http://www.find-ip.net,
+                      "https" : self.http://www.find-ip.net,
+                      "ftp"   : self.http://www.find-ip.net,
                     }
         self.url = url
         def makearr(tsteps):
