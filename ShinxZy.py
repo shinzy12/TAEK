@@ -995,9 +995,9 @@ class BaseCheck():
         self.https_proxy = "http://www.find-ip.net"
         self.ftp_proxy   = "http://www.find-ip.net"
         self.proxyDict = {
-                      "http"  : self.http://www.find-ip.net,
-                      "https" : self.http://www.find-ip.net,
-                      "ftp"   : self.http://www.find-ip.net,
+                      "http"  : self.http://proxy,(random ip),
+                      "https" : self.https://proxy,(random ip),
+                      "ftp"   : self.ftp://proxy,(random ip),
                     }
         self.url = url
         def makearr(tsteps):
