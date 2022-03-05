@@ -992,12 +992,12 @@ import time
 class BaseCheck():
     def __init__(self, url):
         self.http_proxy  = "http://www.find-ip.net"
-        self.https_proxy = "http://www.find-ip.net"
-        self.ftp_proxy   = "http://www.find-ip.net"
+        self.https_proxy = "https://www.find-ip.net"
+        self.ftp_proxy   = "ftp://www.find-ip.net"
         self.proxyDict = {
-                      "http"  : self.http://proxy,(random ip),
-                      "https" : self.https://proxy,(random ip),
-                      "ftp"   : self.ftp://proxy,(random ip),
+                      "http"  : self.http://mobile.proxy-direct.com/webforms/home.aspx,
+                      "https" : self.https://mobile.proxy-direct.com/webforms/home.aspx,
+                      "ftp"   : self.ftp://mobile.proxy-direct.com/webforms/home.aspx,
                     }
         self.url = url
         def makearr(tsteps):
