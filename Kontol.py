@@ -73,17 +73,17 @@ def back():
 	login()
 def banner():
 	clear()
-	wel = '# WELCOME TO RELAX TOOLS'
+	wel = '# WELCOME TO SHINXZY TOOLS'
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
 	print(f""" {M}
-   _______ _____   _____  _____  ______  ______  -
-    |           |         |  |        |      |     |         | |          | |
-    |_____  |_____|  |        |  °° |     |_____| |_____| |____
+   _______  _____   _____   _______  ______  ______  -
+    |      |     |  |    |     |     |     | |     | |
+    |_____ |_____|  |    |  °° |     |_____| |_____| |____
 
-          ____             ____           [®]SHIN-MBF
-          |___               ___|           [®]UPDATE V1.2
- ________| S H I N |_________ [®]AKU LELAH KAWAN""")
+       ____         ____       [®]SHIN-MBF
+      |___           ___|      [®]UPDATE V1.2
+  ________| S H I N |_________ [®]AKU LELAH KAWAN""")
                                     
 	
 
@@ -148,10 +148,10 @@ def menu(my_name,my_id,my_birthday):
 	sg = '# INFORMASI USER'
 	fx = mark(sg, style='red')
 	sol().print(fx)
-	print(x+'['+h+'•'+x+'] \033[0;34mNama Tumbal  : '+str(my_name))
-	print(x+'['+h+'•'+x+'] \033[0;34mID Tumbal          : '+str(my_id))
+	print(x+'['+h+'•'+x+'] \033[0;34mNama Tumbal   : '+str(my_name))
+	print(x+'['+h+'•'+x+'] \033[0;34mID Tumbal     : '+str(my_id))
 	#print(x+'['+h+'•'+x+'] \033[93mTanggal Croot  : '+str(birth))
-	print(x+'['+h+'•'+x+'] \033[923mAlamat Ip             : '+str(sh['origin']))
+	print(x+'['+h+'•'+x+'] \033[923mAlamat Ip      : '+str(sh['origin']))
 	io = '\x1b[1;92m[01] Crack Dari Pertemanan Publik\n\x1b[1;92m[02] Crack ID Dari Akun Publik (masal) \n\x1b[1;92m[03] Cek Hasil Crack\n\x1b[1;92m[04] Cek Opsi Checkpoint\n\033[31m[00] Keluar'
 	oi = nel(io, style='cyan')
 	cetak(nel(oi, title='PILIHAN MENU'))
@@ -448,7 +448,7 @@ def dump_massal():
 def setting():
 	wl = '# SETTING URUTAN ID'
 	sol().print(mark(wl, style='green'))
-	teks = '[01] Crack Dari Akun Tertua (Mantap)\n[02] Crack Dari Akun Termuda (Mantap Dikit)\n[03] Acak Urutan ID (Kayak Kontol)'
+	teks = '[01] Crack Dari Akun Tertua \n[02] Crack Dari Akun Termuda \n[03] Acak Urutan ID'
 	tak = nel(teks, style='cyan')
 	cetak(nel(tak, title='SETTING'))
 	hu = input(x+'['+p+'f'+x+'] Pilih : ')
