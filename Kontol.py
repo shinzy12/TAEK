@@ -148,7 +148,7 @@ def menu(my_name,my_id,my_birthday):
 	sg = '# INFORMASI USER'
 	fx = mark(sg, style='red')
 	sol().print(fx)
-	print(x+'['+h+'•'+x+'] \033[0;34mNama User    : '+str(my_name))
+	print(x+'['+h+'•'+x+'] \033[0;34mNama User     : '+str(my_name))
 	print(x+'['+h+'•'+x+'] \033[0;34mID Tumbal     : '+str(my_id))
 	print(x+'['+h+'•'+x+'] \033[93mTanggal join  : '+str(birth))
 	print(x+'['+h+'•'+x+'] \033[923mAlamat Ip     : '+str(sh['origin']))
