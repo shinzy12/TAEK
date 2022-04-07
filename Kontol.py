@@ -1,4 +1,4 @@
-#SC GRATIS JANGAN DIJUAL KONTOL
+#AKU LELAH KAWAN
 
 import requests,bs4,json,os,sys,random,datetime,time,re
 try:
@@ -83,7 +83,7 @@ def banner():
 
        ____         ____       [®]SHIN-MBF
       |___           ___|      [®]UPDATE V1.2
-  ________| S H I N |_________ [®]AKU LELAH KAWAN""")
+  ________| S H I N |_________ [®]PREMIUM AKTIF""")
                                     
 	
 
@@ -150,7 +150,7 @@ def menu(my_name,my_id,my_birthday):
 	sol().print(fx)
 	print(x+'['+h+'•'+x+'] \033[0;34mNama Tumbal   : '+str(my_name))
 	print(x+'['+h+'•'+x+'] \033[0;34mID Tumbal     : '+str(my_id))
-	print(x+'['+h+'•'+x+'] \033[93mTanggal join   : '+str(birth))
+	print(x+'['+h+'•'+x+'] \033[93mTanggal join  : '+str(birth))
 	print(x+'['+h+'•'+x+'] \033[923mAlamat Ip     : '+str(sh['origin']))
 	io = '\x1b[1;92m[01] Crack Dari Pertemanan Publik\n\x1b[1;92m[02] Crack ID Dari Akun Publik (masal) \n\x1b[1;92m[03] Cek Hasil Crack\n\x1b[1;92m[04] Cek Opsi Checkpoint\n\033[31m[00] Keluar'
 	oi = nel(io, style='cyan')
