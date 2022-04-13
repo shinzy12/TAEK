@@ -161,7 +161,7 @@ class menu:
 		IP = requests.get('https://api.ipify.org').text
 		jalan(' %s╔═[ %sseUSER NAME = >< %s%s ]'%(N,H,r,N))
 		print(' %s║'%(N))
-		print(' %s╠═[%s•%s] Accsess licensee kamu   : %s'%(Shinzy98-1909890.kyc))
+		print(' %s╠═[%s•%s] Accsess licensee kamu   : %s'%(N,O,N,akss))
 		print(' %s╠═[%s•%s] Alamat IP kamu saat ini : %s'%(N,O,N,IP))
 		print(' %s╠═[%s•%s] Kamu masuk pada         : %s'%(N,O,N,waktu))
 		print(' %s║'%(N))
