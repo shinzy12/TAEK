@@ -82,12 +82,13 @@ def folder():
 
 def banner():
 	print('''%s
-   _______  _____   _____   _______  ______  ______  -
-    |      |     |  |    |     |     |     | |     | |
-    |_____ |_____|  |    |  °° |     |_____| |_____| |____
+       ____ _ _  _ _ _____    _______  ______  ______  -  _____
+      |___  | |__| | |   |  °    |     |     | |     | | |____
+   _______| | |  | | |   |  °    |     |_____| |_____| |____  |
+   ______________________ MULTI BRUTE ________________________|
        ____         ____       [®]PEMBUAT = M ZAINUL UMAM
-      |___           ___|      [®]UPDATE  = V1.2
-  ________| S H I N |_________ [®]PREMIUM = AKTIF""")
+      |___           ___|      [®]UPDATE  = V1.4
+  ________| S H I N |_________ [®]PREMIUM = AKTIF
 ───────────────────────────────────────────────────────
  [\x1b[1;96m+%s] Author   : ZAINUL UMAM
  [\x1b[1;96m+%s] WA         : 085740559154
@@ -158,9 +159,9 @@ class menu:
 			akss = '-'
 		banner()
 		IP = requests.get('https://api.ipify.org').text
-		jalan(' %s╔═[ %sselamat Datang Om>< %s%s ]'%(N,H,r,N))
+		jalan(' %s╔═[ %sseUSER NAME = >< %s%s ]'%(N,H,r,N))
 		print(' %s║'%(N))
-		print(' %s╠═[%s•%s] Accsess licensee kamu   : %s'%(N,O,N,akss))
+		print(' %s╠═[%s•%s] Accsess licensee kamu   : %s'%(Shinzy98-1909890.kyc))
 		print(' %s╠═[%s•%s] Alamat IP kamu saat ini : %s'%(N,O,N,IP))
 		print(' %s╠═[%s•%s] Kamu masuk pada         : %s'%(N,O,N,waktu))
 		print(' %s║'%(N))
