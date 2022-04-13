@@ -82,14 +82,13 @@ def folder():
 
 def banner():
 	print('''%s
-_______  ______ _______ _______ _     _ _______  ______
-|       |_____/ |_____| |       |____/  |______ |_____/
-|_____  |    \_ |     | |_____  |    \_ |______ |    \_
-───────────────────────────────────────────────────────
- [\x1b[1;96m+%s] Author   : ZAINUL UMAM
- [\x1b[1;96m+%s] WA         : 085740559154
- [\x1b[1;96m+%s] Facebook : LU PASTI TAU AKUN GUA UNIK
-───────────────────────────────────────────────────────\n'''%(N,N,N,N))
+   _______  _____   _____   _______  ______  ______  -
+    |      |     |  |    |     |     |     | |     | |
+    |_____ |_____|  |    |  °° |     |_____| |_____| |____
+
+       ____         ____       [®]PEMBUAT = M ZAINUL UMAM
+      |___           ___|      [®]UPDATE  = V1.2
+  ________| S H I N |_________ [®]PREMIUM = AKTIF\n'''%(N,N,N,N))
 
 class login:
 
@@ -161,20 +160,20 @@ class menu:
 		print(' %s╠═[%s•%s] Alamat IP kamu saat ini : %s'%(N,O,N,IP))
 		print(' %s╠═[%s•%s] Kamu masuk pada         : %s'%(N,O,N,waktu))
 		print(' %s║'%(N))
-		print(' %s╠═[%s0%s] crack dari daftar teman     [ON]'%(N,O,N))
-		print(' %s╠═[%s1%s] crack dari akun publik      [ON]'%(N,O,N))
-		print(' %s╠═[%s2%s] crack dari akun massal    [ON]'%(N,O,N))
-		print(' %s╠═[%s3%s] crack dari postingan         [ON]'%(N,O,N))
-		print(' %s╠═[%s4%s] crack dari likes post          [ON]'%(N,O,N))
-		print(' %s╠═[%s5%s] crack dari followers          [ON]'%(N,O,N))
-		print(' %s╠═[%s6%s] cek opsi akun chekpoint  [ON]'%(N,O,N))
-		print(' %s╠═[%s7%s] cek hasil crack ok,cp       [ON]'%(N,O,N))
-		print(' %s╠═[%s8%s] seting User-Agent            [ON]'%(N,O,N))
-		print(' %s╠═[%s9%s] crack email                       [ON]'%(N,O,N))
-		print(' %s╠═[%sG%s] Get data² facebook          [ON]'%(N,O,N))
-		print(' %s╠═[%sK%s] Lapor bug script               [ON]'%(N,O,N))
-		print(' %s╠═[%sA%s] Keluar, hapus token[         [ON]'%(N,O,N))
-		print(' %s╠═[%sU%s] Upgrade ke premium        [ON]'%(N,O,N))
+		print(' %s╠═[%s0%s] crack dari daftar teman'%(N,O,N))
+		print(' %s╠═[%s1%s] crack dari akun publik'%(N,O,N))
+		print(' %s╠═[%s2%s] crack dari akun massal'%(N,O,N))
+		print(' %s╠═[%s3%s] crack dari postingan'%(N,O,N))
+		print(' %s╠═[%s4%s] crack dari likes post'%(N,O,N))
+		print(' %s╠═[%s5%s] crack dari followers'%(N,O,N))
+		print(' %s╠═[%s6%s] cek opsi akun chekpoint'%(N,O,N))
+		print(' %s╠═[%s7%s] cek hasil crack ok,cp'%(N,O,N))
+		print(' %s╠═[%s8%s] seting User-Agent'%(N,O,N))
+		print(' %s╠═[%s9%s] crack email'%(N,O,N))
+		print(' %s╠═[%sG%s] Get data² facebook'%(N,O,N))
+		print(' %s╠═[%sK%s] Lapor bug script'%(N,O,N))
+		print(' %s╠═[%sA%s] Keluar, hapus token'%(N,O,N))
+		print(' %s╠═[%sU%s] Upgrade ke premium'%(N,O,N))
 		self.pilih()
 
 	def pilih(self):
