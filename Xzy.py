@@ -136,7 +136,7 @@ def login_kontol():
 		print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
 		jalan('%s╚══[%s✓%s] %s\33[1;96mLOGIN BERHASIL JALANKAN ULANG TOOLS'%(M,P,M,P))
 		print("""%s ●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬● """%(h))
-		print("""%s \33[1;96mJalan kan perintah python barus.py """%(h))
+		print("""%s \33[1;96mJalan kan perintah python Xzy.py """%(h))
 		time.sleep(2.5)
 		exit()
 	except KeyError:
