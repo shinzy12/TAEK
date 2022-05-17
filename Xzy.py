@@ -25,12 +25,6 @@ try:
     from time import sleep as jeda
     s = requests.Session()
 
-def jalan(z):
-    for e in z + '\n':
-        sys.stdout.write(e)
-        sys.stdout.flush()
-        jeda(0.03)
-
 
 til = '%s[%s\xe2\x80\xa2%s]' % (N, O, N)
 ct = datetime.now()
