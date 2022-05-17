@@ -25,12 +25,6 @@ try:
     from time import sleep as jeda
     s = requests.Session()
 
-IP = requests.get('https://api.ipify.org').text
-id = []
-cp = []
-ok = []
-loop = 0
-
 def jalan(z):
     for e in z + '\n':
         sys.stdout.write(e)
