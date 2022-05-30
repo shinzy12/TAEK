@@ -64,7 +64,7 @@ def banner():
         / __ `__ \/ / / / / __/ /  / __/ __ \/ __ \/ / ___/
        / / / / / / /_/ / / /_/ /  / /_/ /_/ / /_/ / (__  )
       /_/ /_/ /_/\__,_/_/\__/_/   \__/\____/\____/_/____/ 
- |""")
+ """)
 
 
 ###----------[ TIME ]---------- ###
@@ -237,9 +237,9 @@ def log_cookie():
     os.system("clear")
     banner()
     mkdir_data_login()
-    print(f"{B} | ")
+    print(f"{B} • ")
     print(f"{P}[*] AMBIL COOKIE DARI KIWI!!")
-    print(f"{B} | ")
+    print(f"{B} • ")
     cookie=str(input(f"{P}[*] MASUKAN COOKIE : {B}"))
     try:
         token = clotox(cookie)
