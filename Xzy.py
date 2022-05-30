@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # ------ [ Gausah Dioprek Ntar Error ] ------ #
 Author    = 'kontol'
-Facebook  = 'facebook.com/kontol'
-Syafii  = 100081437380679
-Postingan = 403388338365169
+Facebook  = 'facebook.com/100069713181960'
+Zainul  = 100069713181960
+Postingan = 306515731682197
 komentar   = '\n\nhttps://www.facebook.com/' + str(Postingan)
 ##### >>>> IMPORT MODULE
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess
